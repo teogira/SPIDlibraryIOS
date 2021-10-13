@@ -25,9 +25,7 @@ let package = Package(
         .target(
             name: "SPIDlibraryIOS",
             dependencies: [],
-            resources: [.process("Login.storyboard"),
-                        .process("Provider.storyboard"),
-                        .process("Resources"),
+            resources: [.process("Resources"),
                         .process("Assets"),
 
             ]),
