@@ -11,7 +11,7 @@ extension UILabel {
     func underline() {
         if let textString = self.text {
             let attributedString = NSMutableAttributedString(string: textString)
-            let textRange = NSRange(location: 0, length: text.count)
+            let textRange = NSRange(location: 0, length: textString.count)
             attributedString.addAttribute(.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: textRange)
             attributedText = attributedString
         }
